@@ -1,0 +1,19 @@
+@import '__heading/place__heading.css';
+@import '__title/place__title.css';
+@import '__url-heading/place__url-heading.css';
+@import '__url/place__url.css';
+@import '__website/place__website.css';
+@import '__content/place__content.css';
+@import '__image/place__image.css';
+@import '__text/place__text.css';
+.place {
+    margin: 72px auto 0px;
+    max-width: 984px;
+    background-color: #2A2C2F;
+}
+
+@media (max-width:1024px) {
+    .place {
+        margin: 72px 2% 0px;
+    }
+}

@@ -1,0 +1,5 @@
+@import '_bg/video__item_bg.css';
+.video__item {
+    display: block;
+    position: relative;
+}

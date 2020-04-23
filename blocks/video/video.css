@@ -1,0 +1,9 @@
+@import '__container/video__container.css';
+@import '__duration/video__duration.css';
+@import '__icon/video__icon.css';
+@import '__item/video__item.css';
+@import '__subtitle/video__subtitle.css';
+@import '__title/video__title.css';
+.video {
+    background-color: #2A2C2F;
+}

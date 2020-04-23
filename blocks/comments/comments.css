@@ -1,0 +1,6 @@
+@import '../table/table.css';
+@import '../content-title/content-title.css';
+@import '../content-subtitle/content-subtitle.css';
+.comments {
+    background-color: #2A2C2F;
+}

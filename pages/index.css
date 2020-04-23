@@ -1,0 +1,75 @@
+@import '../vendor/normalize.css';
+@import '../vendor/inter.css';
+@import '../blocks/header/header.css';
+@import '../blocks/lead/lead.css';
+@import '../blocks/intro/intro.css';
+@import '../blocks/photo-grid/photo-grid.css';
+@import '../blocks/place/place.css';
+@import '../blocks/content-title/content-title.css';
+@import '../blocks/content-subtitle/content-subtitle.css';
+@import '../blocks/video/video.css';
+@import '../blocks/comments/comments.css';
+@import '../blocks/cover/cover.css';
+@import '../blocks/footer/footer.css';
+.page {
+    background: #2A2C2F;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*
+img {
+    border: 1px solid red;
+}
+
+div {
+    border: 1px solid red;
+}
+
+p {
+    border: 1px solid red;
+}
+
+h1 {
+    border: 1px solid red;
+}
+
+h2 {
+    border: 1px solid red;
+}
+
+h3 {
+    border: 1px solid red;
+}
+
+h4 {
+    border: 1px solid red;
+}
+
+section {
+    border: 1px solid red;
+}
+
+a {
+    border: 1px solid red;
+}
+
+
+
+@media(max-width:319px)
+
+@media(min-width:320px) and (max-width:374px)
+
+@media(min-width:375px) and (max-width:767px)
+
+@media(min-width:768px) and (max-width:1023px)
+
+@media(min-width:1024px) and (max-width:1279px)
+
+border: 1px solid red;
+*/

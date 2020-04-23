@@ -1,0 +1,31 @@
+.table__comment {
+    max-width: 382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+
+@media (max-width:1023px) {
+    .table__comment {
+        order: 3;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+
+/*@media(max-width:319px)
+
+@media(min-width:320px) and (max-width:374px)
+
+@media(min-width:375px) and (max-width:767px)
+
+@media(min-width:768px) and (max-width:1023px)
+
+@media(min-width:1024px) and (max-width:1279px)
+*/

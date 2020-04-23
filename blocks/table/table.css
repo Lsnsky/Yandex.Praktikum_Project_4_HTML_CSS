@@ -1,0 +1,33 @@
+@import '__item/table__item.css';
+@import '__image/table__image.css';
+@import '__comment/table__comment.css';
+@import '__author/table__author.css';
+.table {
+    margin: 72px auto 0px;
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(3, 382px);
+    column-gap: 19px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #2A2C2F;
+}
+
+@media(max-width:1183px) {
+    .table {
+        display: grid;
+        grid-template-rows: repeat(1, 100%);
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        grid-gap: 2%;
+        margin: 72px 2% 0px 2%;
+    }
+}
+
+@media(max-width:923px) {
+    .table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,11 @@
+.place__website {
+    max-width: 484px;
+    height: 46px;
+    margin-left: 43px;
+}
+
+@media (max-width:608px) {
+    .place__website {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+    .place__title {
+        max-width: 457px;
+        width: calc(100%/2 - 2%);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 65px;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+    
+    @media(max-width:768px) {
+        .place__title {
+            max-width: calc(100%/2 - 2%);
+            font-size: 42px;
+            line-height: 46px;
+        }
+    }
+    
+    @media(max-width:608px) {
+        .place__title {
+            max-width: 343px;
+            width: 100%;
+            font-size: 32px;
+            line-height: 35px;
+            margin-left: 2%;
+        }
+    }

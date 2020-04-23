@@ -1,0 +1,12 @@
+@import '__title/cover__title.css';
+@import '__subtitle/cover__subtitle.css';
+@import '__bg/cover__bg.css';
+@import '__overlay/cover__overlay.css';
+.cover {
+    display: block;
+    max-width: 1184px;
+    margin: auto;
+    text-decoration: none;
+    position: relative;
+    margin-top: 102px;
+}

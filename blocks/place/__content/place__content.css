@@ -1,0 +1,13 @@
+.place__content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media(max-width:608px) {
+    .place__content {
+        display: block;
+        margin: 0px;
+    }
+}

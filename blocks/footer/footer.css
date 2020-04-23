@@ -1,0 +1,30 @@
+    @import '__menu/footer__menu.css';
+    @import '__copyright/footer__copyright.css';
+    @import '__link/footer__link.css';
+    .footer {
+        max-width: 1184px;
+        background: #2A2C2F;
+        margin: auto;
+        padding-bottom: 24px;
+        margin-top: 160px;
+    }
+    
+    @media (min-width:1024px) and (max-width:1183px) {
+        .footer {
+            width: 90.7%;
+        }
+    }
+    
+    @media (min-width:768px) and (max-width:1023px) {
+        .footer {
+            width: 94%;
+            margin-top: 102px;
+        }
+    }
+    
+    @media (max-width:767px) {
+        .footer {
+            margin-left: 2%;
+            margin-top: 64px;
+        }
+    }
